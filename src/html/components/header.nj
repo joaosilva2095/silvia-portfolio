@@ -1,0 +1,10 @@
+<header class="h-100">
+    <div class="d-flex justify-content-center pt-5">
+        <div class="header-title">
+            <div class="d-flex flex-column align-items-center px-5 py-3">
+                <h2>Portfolio</h2>
+                <h1>{{ settings.name }}</h1>
+            </div>
+        </div>
+    </div>
+</header>

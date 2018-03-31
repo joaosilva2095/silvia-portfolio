@@ -1,0 +1,17 @@
+.header-title {
+  padding: $padding-tiny;
+  background: url('https://i.imgur.com/RtvEGEK.png') no-repeat center center;
+  background-size: cover;
+
+  > div {
+    border: solid 0.2rem $color-lilac-light;
+  }
+
+  h2 {
+    font-size: $font-xx-large;
+  }
+
+  h1 {
+    font-size: $font-large;
+  }
+}
