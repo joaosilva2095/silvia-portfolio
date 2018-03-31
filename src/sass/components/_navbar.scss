@@ -7,23 +7,26 @@ div.navbar-pretty {
     margin-right: $margin-tiny;
 
     li {
-      transition: margin 0.5s, padding 0.5s;
-      width: $width-small;
-      box-sizing: content-box;
-      background-color: $color-gray-normal;
-
-      a {
-        color: white;
-      }
+      transition: margin 0.1s;
+      margin: $margin-tiny 0;
     }
 
     li.active {
-      margin: $margin-x-large 0;
+      transition: margin 0.1s;
+      margin: $margin-xxx-large 0;
     }
 
-    li.active,
-    li:hover {
-      transition: margin 0.5s, padding 0.5s;
+    a {
+      transition: padding 0.1s;
+      width: $width-small;
+      box-sizing: content-box;
+      background-color: $color-gray-normal;
+      color: white;
+    }
+
+    li.active a,
+    a:hover {
+      transition: padding 0.1s;
       padding: $margin-tiny $margin-large;
 
       background-color: $color-gray-light;
