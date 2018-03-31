@@ -1,0 +1,31 @@
+{
+  "title": "Sílvia Ávila | Artista",
+  "description": "I am Sílvia Ávila!",
+  "author": "João Oliveira e Silva, Sílvia Ávila",
+  "name": "Sílvia Ávila",
+  "favicon": "https://res.cloudinary.com/joaosilva2095/image/upload/q_auto/v1519037388/Portfolio/logo_gxanek.png",
+  "loading_icon": "https://res.cloudinary.com/joaosilva2095/image/upload/q_auto/v1516228659/Portfolio/loading_witsgc.svg",
+  "logo": "https://res.cloudinary.com/joaosilva2095/image/upload/q_auto/v1519037388/Portfolio/logo_gxanek.svg",
+  "social_media": [
+    {
+      "title": "LinkedIn",
+      "icon": "fa-linkedin",
+      "link": "https://www.linkedin.com/in/joaosilva2095"
+    },
+    {
+      "title": "GitHub",
+      "icon": "fa-github",
+      "link": "https://www.github.com/joaosilva2095"
+    },
+    {
+      "title": "Facebook",
+      "icon": "fa-facebook",
+      "link": "https://www.facebook.com/joaosilva2095"
+    },
+    {
+      "title": "Instagram",
+      "icon": "fa-instagram",
+      "link": "https://www.instagram.com/joaosilva2095/"
+    }
+  ]
+}

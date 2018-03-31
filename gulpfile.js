@@ -59,10 +59,6 @@ gulp.task('html', function () {
         .pipe(data(function () {
             const result = {
                 settings: requireUncached('./src/settings.json'),
-                about: requireUncached('./src/data/about.json'),
-                timeline: requireUncached('./src/data/timeline.json'),
-                skills: requireUncached('./src/data/skills.json'),
-                portfolio: requireUncached('./src/data/portfolio.json')
             };
 
             return result
@@ -123,10 +119,6 @@ gulp.task('html-prod', function () {
         .pipe(data(function () {
             const result = {
                 settings: requireUncached('./src/settings.json'),
-                about: requireUncached('./src/data/about.json'),
-                timeline: requireUncached('./src/data/timeline.json'),
-                skills: requireUncached('./src/data/skills.json'),
-                portfolio: requireUncached('./src/data/portfolio.json')
             };
 
             return result
@@ -135,7 +127,11 @@ gulp.task('html-prod', function () {
             path: ['src/html']
         }))
         .pipe(htmlMin({
-            collapseWhitespace: true
+            collapseInlineTagWhitespace: true,
+            minifyJS: true,
+            removeComments: true,
+            sortClassName: true,
+            sortAttributes: true
         }))
         .pipe(gulp.dest(distPath))
 });

@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    {% include 'abstract/head.nj' %}
+</head>
+
+<body>
+<main>
+    <h1>{{ settings.name }}</h1>
+</main>
+</body>
+
+{% include 'abstract/scripts.nj' %}
+</html>
