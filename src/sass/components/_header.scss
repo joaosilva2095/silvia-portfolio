@@ -1,4 +1,4 @@
-.header-title {
+header .header-title {
   padding: $padding-tiny;
   background: url('https://i.imgur.com/RtvEGEK.png') no-repeat center center;
   background-size: cover;
@@ -8,10 +8,62 @@
   }
 
   h2 {
-    font-size: $font-xx-large;
+    font-family: $font-primary;
   }
 
   h1 {
-    font-size: $font-large;
+    font-family: $font-secondary;
+  }
+
+  @include phone {
+    h2 {
+      font-size: $font-large;
+    }
+
+    h1 {
+      font-size: $font-large;
+    }
+  }
+
+  @include tablet {
+    h2 {
+      font-size: $font-large;
+    }
+
+    h1 {
+      font-size: $font-large;
+    }
+  }
+
+  @include desktop {
+    h2 {
+      font-size: $font-xxx-large;
+    }
+
+    h1 {
+      font-size: $font-xx-large;
+    }
+  }
+
+  @include tv {
+    h2 {
+      font-size: $font-xxxx-large;
+    }
+
+    h1 {
+      font-size: $font-xxx-large;
+    }
+  }
+}
+
+header .header-image {
+  width: $width-regular;
+  height: $height-xx-large;
+  outline: solid 0.2rem $color-lilac-dark;
+  outline-offset: 0.5rem;
+
+  img {
+    width: 100%;
+    height: 100%;
   }
 }
