@@ -1,0 +1,37 @@
+div.navbar-pretty {
+  height: 75%;
+  border-right: solid 0.5rem $color-lilac-light;
+  font-size: $font-regular;
+
+  nav.nav > .collapse {
+    margin-right: $margin-tiny;
+
+    li {
+      transition: margin 0.5s, padding 0.5s;
+      width: $width-small;
+      box-sizing: content-box;
+      background-color: $color-gray-normal;
+
+      a {
+        color: white;
+      }
+    }
+
+    li.active {
+      margin: $margin-x-large 0;
+    }
+
+    li.active,
+    li:hover {
+      transition: margin 0.5s, padding 0.5s;
+      padding: $margin-tiny $margin-large;
+
+      background-color: $color-gray-light;
+      border: solid 0.1rem $color-gray-normal;
+
+      a {
+        color: $color-gray-dark;
+      }
+    }
+  }
+}

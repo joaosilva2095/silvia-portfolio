@@ -1,25 +1,27 @@
-<div class="h-100 fixed-top d-flex flex-column justify-content-end align-items-end">
-    <nav class="nav navbar-expand-lg navbar-light mr-5 mb-5">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+<div class="h-100 fixed-top d-flex flex-column justify-content-center align-items-end">
+    <div class="d-flex align-items-end mr-5 navbar-pretty">
+        <nav class="nav navbar-expand-lg navbar-light text-right">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav flex-column text-center">
-                <li class="nav-item active mb-4">
-                    <a class="nav-link" href="#">Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Random Posts</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Curriculum</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav flex-column align-items-end text-center">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Random Posts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Curriculum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 </div>
