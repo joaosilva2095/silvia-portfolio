@@ -1,7 +1,18 @@
 div.navbar-pretty {
-  height: 75%;
+  height: 80%;
   border-right: solid 0.3rem $color-lilac-light;
   font-size: $font-regular;
+  position: relative;
+
+  img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: $width-tiny;
+    height: $height-tiny;
+    margin-top:-1rem;
+    margin-right: -1rem;
+  }
 
   nav.nav > .collapse {
     margin-right: $margin-tiny;
