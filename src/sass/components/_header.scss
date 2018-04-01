@@ -57,10 +57,28 @@ header .header-title {
 }
 
 header .header-image {
-  width: $width-regular;
-  height: $height-xx-large;
   outline: solid 0.2rem $color-lilac-dark;
   outline-offset: 0.5rem;
+
+  @include phone {
+    width: $width-regular;
+    height: $height-xx-large;
+  }
+
+  @include tablet {
+    width: $width-regular;
+    height: $height-xx-large;
+  }
+
+  @include desktop {
+    width: $width-regular;
+    height: $height-xx-large;
+  }
+
+  @include tv {
+    width: $width-regular;
+    height: $height-xx-large;
+  }
 
   img {
     width: 100%;
