@@ -1,12 +1,12 @@
 <div class="h-100 fixed-top d-flex flex-column justify-content-center align-items-end">
-    <div class="d-flex align-items-end mr-5 navbar-pretty">
-        <nav class="nav navbar-expand-lg navbar-light text-right">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    <div class="d-flex align-items-end mr-lg-5 navbar-pretty">
+        <nav class="nav navbar-expand-lg navbar-light text-right justify-content-end">
+            <button class="navbar-toggler order-2" type="button" data-toggle="slide-collapse" data-target="#navbar"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="fas fa-angle-double-left"></i>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navbar-collapse collapse order-1" id="navbar">
                 <ul class="navbar-nav flex-column align-items-end text-center">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Gallery</a>
