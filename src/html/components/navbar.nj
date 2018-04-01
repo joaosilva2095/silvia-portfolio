@@ -3,12 +3,12 @@
         <img src="https://i.imgur.com/CIckmIA.png" alt="Navigation Circles" height="50" width="60">
 
         <nav class="nav navbar-expand-lg navbar-light text-right justify-content-end">
-            <button class="navbar-toggler order-2" type="button" data-toggle="slide-collapse" data-target="#navbar"
+            <button class="navbar-toggler" type="button" data-toggle="slide-collapse" data-target="#navbar"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-angle-double-left"></i>
+                <i class="fa fa-lg fa-align-justify"></i>
             </button>
 
-            <div class="navbar-collapse collapse order-1" id="navbar">
+            <div class="navbar-collapse collapse" id="navbar">
                 <ul class="navbar-nav flex-column align-items-end text-center">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Gallery</a>
