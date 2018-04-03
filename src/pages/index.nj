@@ -9,43 +9,15 @@
 <main class="h-100">
     {% include 'components/navbar.nj' %}
     {% include 'components/header.nj' %}
-    <section>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo, velit non congue facilisis, dui risus
-            tincidunt diam, vel congue urna enim ac ipsum. Sed interdum libero ultrices, feugiat magna sed, molestie
-            felis. Vivamus gravida massa sed lorem elementum vehicula. Integer quis posuere massa, vitae ornare quam.
-            Aenean porttitor lacus ac felis luctus, ut sodales ex faucibus. Integer feugiat, nisl et dignissim
-            elementum, sem velit molestie lacus, eget sagittis quam felis in libero. Donec luctus cursus faucibus.
-            Mauris et lacus et est aliquet vestibulum ac vitae ante. Nulla non congue nunc. Pellentesque elementum urna
-            id tortor interdum iaculis. Morbi porttitor tempor ornare. Mauris velit quam, consequat at nunc sed, commodo
-            viverra mi.
 
-            Sed pretium ex sem, ut egestas purus venenatis id. In sagittis eros id purus rutrum, sit amet maximus leo
-            tincidunt. Fusce rhoncus tincidunt nulla sed elementum. In nec eros vehicula, tincidunt ligula et, ultricies
-            ante. Vivamus luctus condimentum tortor at tempus. Nullam molestie pharetra ultrices. Cras rhoncus, purus et
-            pellentesque egestas, odio urna euismod eros, et ullamcorper orci velit sed est. Suspendisse urna ligula,
-            consequat nec nibh eu, egestas fringilla massa. Phasellus dapibus vulputate arcu, a cursus nunc accumsan
-            nec. Proin sit amet dolor non mauris aliquet dapibus. Proin efficitur mi vitae consectetur consequat. Nulla
-            velit justo, commodo in posuere eu, sagittis eget purus. Morbi nec massa maximus velit efficitur ullamcorper
-            in quis turpis. Quisque justo massa, fermentum quis felis et, volutpat placerat metus. In mauris mi,
-            volutpat sit amet cursus non, vulputate ac lacus. Vestibulum in malesuada purus.
-
-            Phasellus vehicula congue faucibus. Duis laoreet, mauris ac maximus sodales, leo sapien convallis ante, ac
-            tempor arcu nulla at ligula. Fusce eget augue lorem. In sagittis augue sed dignissim rhoncus. Phasellus
-            molestie dapibus metus pulvinar tristique. Curabitur pulvinar auctor iaculis. Duis et tempor arcu.
-
-            Suspendisse consequat lacus ut accumsan euismod. Nunc a tincidunt libero, id ultricies orci. Etiam eget
-            neque ante. Nulla tincidunt semper hendrerit. In vitae erat ut ipsum mattis interdum quis vitae neque.
-            Curabitur commodo posuere scelerisque. Etiam eget scelerisque enim. Aenean convallis quam tortor, at posuere
-            lacus finibus vel. Suspendisse potenti. Fusce vitae dictum sapien. Vestibulum urna ligula, ultrices et
-            suscipit eget, aliquet eget dolor. Fusce at lacinia libero.
-
-            Praesent interdum porttitor nunc. Nam ac aliquam nisi. Ut malesuada, mi eget viverra convallis, orci purus
-            viverra tortor, eu fringilla sapien augue non tortor. Nulla nec nisl neque. Curabitur a cursus orci. Aenean
-            nulla libero, eleifend eu nulla at, elementum varius purus. Nullam vel rhoncus ante, id maximus purus. Etiam
-            maximus congue augue consequat lacinia. Etiam gravida ante at volutpat vulputate. Nullam ornare id dui at
-            aliquet.
-        </p>
+    <!-- Gallery -->
+    <section class="row ml-lg-2 mr-lg-5">
+        {% import "components/gallery-item.nj" as gallery %}
+        {% for item in galleryItems %}
+            <div class="col-4">
+                {{ gallery.item("https://pbs.twimg.com/profile_images/949374088249671680/MuxDEZpD_400x400.jpg") }}
+            </div>
+        {% endfor %}
     </section>
 </main>
 </body>

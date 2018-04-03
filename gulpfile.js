@@ -59,6 +59,7 @@ gulp.task('html', function () {
         .pipe(data(function () {
             const result = {
                 settings: requireUncached('./src/settings.json'),
+                galleryItems: requireUncached('./src/data/gallery.json')
             };
 
             return result
@@ -119,6 +120,7 @@ gulp.task('html-prod', function () {
         .pipe(data(function () {
             const result = {
                 settings: requireUncached('./src/settings.json'),
+                galleryItems: requireUncached('./src/data/gallery.json')
             };
 
             return result

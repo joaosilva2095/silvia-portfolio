@@ -1,0 +1,4 @@
+{% macro item(url) %}
+<img src="{{ url }}"
+    width="50" height="100"/>
+{% endmacro %}
