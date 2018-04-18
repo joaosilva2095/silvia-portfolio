@@ -17,6 +17,7 @@
         <div class="triangle-top-right"></div>
         <div class="triangle-bottom-left"></div>
         <div class="triangle-bottom-right"></div>
+
         <div class="col-12 offset-lg-1 col-lg-7">
             <div class="row no-gutters">
                 {% import "components/gallery-item.nj" as gallery %}
@@ -30,17 +31,9 @@
     </section>
 
     <!-- Random posts -->
-    <section id="randomPosts" class="row no-gutters py-5 random-posts-container">
-        <div class="col-12 offset-lg-1 col-lg-7">
-            <div class="row no-gutters">
-                {% import "components/gallery-item.nj" as gallery %}
-                {% for item in galleryItems %}
-                    <div class="col-12 col-lg-4">
-                        {{ gallery.item("https://pbs.twimg.com/profile_images/949374088249671680/MuxDEZpD_400x400.jpg") }}
-                    </div>
-                {% endfor %}
-            </div>
-        </div>
+    <section id="randomPosts" class="row no-gutters py-5 random-posts-wrapper">
+        <div class="corner-horizontal"></div>
+        <div class="corner-vertical"></div>
     </section>
 
     {% include 'components/footer.nj' %}
