@@ -1,8 +1,10 @@
 .gallery-item {
   padding: $padding-regular;
+  height: 60vh;
 
   img {
-    width: 100%;
-    height: auto;
+    height: 100%;
+    width: auto;
+    max-width: 100%;
   }
 }
