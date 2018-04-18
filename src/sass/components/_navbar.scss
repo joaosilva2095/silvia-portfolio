@@ -1,4 +1,9 @@
+.navbar-container {
+  pointer-events: none;
+}
+
 div.navbar-pretty {
+  pointer-events: all;
   height: 80%;
   border-right: solid 0.3rem $color-lilac-light;
   font-size: $font-regular;

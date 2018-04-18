@@ -1,4 +1,4 @@
-<div class="h-100 fixed-top d-flex flex-column justify-content-center align-items-end">
+<div class="h-100 fixed-top d-flex flex-column justify-content-center align-items-end navbar-container">
     <div class="d-flex flex-column justify-content-end align-items-end mr-lg-5 navbar-pretty">
         <img src="https://i.imgur.com/CIckmIA.png" alt="Navigation Circles" height="50" width="60">
 
@@ -10,7 +10,7 @@
 
             <div class="navbar-collapse navbar-nav flex-column align-items-end text-center" id="navbar">
                 <a class="nav-item nav-link" href="#gallery">Gallery</a>
-                <a class="nav-item nav-link" href="#">Random Posts</a>
+                <a class="nav-item nav-link" href="#randomPosts">Random Posts</a>
                 <a class="nav-item nav-link" href="#">Curriculum</a>
                 <a class="nav-item nav-link" href="#">Contact</a>
             </div>

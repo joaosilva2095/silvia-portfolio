@@ -59,7 +59,8 @@ gulp.task('html', function () {
         .pipe(data(function () {
             const result = {
                 settings: requireUncached('./src/settings.json'),
-                galleryItems: requireUncached('./src/data/gallery.json')
+                galleryItems: requireUncached('./src/data/gallery.json'),
+                socialMedia: requireUncached('./src/data/socialMedia.json')
             };
 
             return result
@@ -120,7 +121,8 @@ gulp.task('html-prod', function () {
         .pipe(data(function () {
             const result = {
                 settings: requireUncached('./src/settings.json'),
-                galleryItems: requireUncached('./src/data/gallery.json')
+                galleryItems: requireUncached('./src/data/gallery.json'),
+                socialMedia: requireUncached('./src/data/socialMedia.json')
             };
 
             return result

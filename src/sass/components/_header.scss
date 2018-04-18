@@ -1,84 +1,88 @@
-header .header-title {
-  padding: $padding-tiny;
-  background: url('https://i.imgur.com/RtvEGEK.png') no-repeat center center;
-  background-size: cover;
+header {
+  background-color: $color-lilac-super-light;
 
-  > div {
-    border: solid 0.2rem $color-lilac-light;
-  }
+  .header-title {
+    padding: $padding-tiny;
+    background: url('https://i.imgur.com/RtvEGEK.png') no-repeat center center;
+    background-size: cover;
 
-  h2 {
-    font-family: $font-primary;
-  }
+    > div {
+      border: solid 0.2rem $color-lilac-light;
+    }
 
-  h1 {
-    font-family: $font-secondary;
-  }
-
-  @include phone {
     h2 {
-      font-size: $font-large;
+      font-family: $font-primary;
     }
 
     h1 {
-      font-size: $font-large;
+      font-family: $font-secondary;
     }
-  }
-
-  @include tablet {
-    h2 {
-      font-size: $font-xxx-large;
-    }
-
-    h1 {
-      font-size: $font-xx-large;
-    }
-  }
-
-  @include desktop {
-    h2 {
-      font-size: $font-xxx-large;
-    }
-
-    h1 {
-      font-size: $font-xx-large;
-    }
-  }
-
-  @include tv {
-    h2 {
-      font-size: $font-xxxx-large;
-    }
-
-    h1 {
-      font-size: $font-xxx-large;
-    }
-  }
-}
-
-header .header-image {
-  img {
-    outline: solid 0.2rem $color-lilac-dark;
-    outline-offset: 0.5rem;
 
     @include phone {
-      width: $width-small;
-      height: $height-large;
+      h2 {
+        font-size: $font-large;
+      }
+
+      h1 {
+        font-size: $font-large;
+      }
     }
 
     @include tablet {
-      width: $width-regular;
-      height: $height-xx-large;
+      h2 {
+        font-size: $font-xxx-large;
+      }
+
+      h1 {
+        font-size: $font-xx-large;
+      }
     }
 
     @include desktop {
-      width: $width-regular;
-      height: $height-xx-large;
+      h2 {
+        font-size: $font-xxx-large;
+      }
+
+      h1 {
+        font-size: $font-xx-large;
+      }
     }
 
     @include tv {
-      width: $width-large;
-      height: $height-xxx-large;
+      h2 {
+        font-size: $font-xxxx-large;
+      }
+
+      h1 {
+        font-size: $font-xxx-large;
+      }
+    }
+  }
+
+  .header-image {
+    img {
+      outline: solid 0.2rem $color-lilac-dark;
+      outline-offset: 0.5rem;
+
+      @include phone {
+        width: $width-small;
+        height: $height-large;
+      }
+
+      @include tablet {
+        width: $width-regular;
+        height: $height-xx-large;
+      }
+
+      @include desktop {
+        width: $width-regular;
+        height: $height-xx-large;
+      }
+
+      @include tv {
+        width: $width-large;
+        height: $height-xxx-large;
+      }
     }
   }
 }

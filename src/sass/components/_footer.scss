@@ -1,0 +1,26 @@
+footer {
+  padding: $padding-regular;
+  background-color: #3d3d73;
+
+  .social-icon,
+  p {
+    font-size: $font-x-large;
+  }
+
+  p {
+    font-family: $font-secondary;
+    color: $color-gray-normal;
+  }
+
+  .social-icon:nth-child(even) {
+    color: $color-gray-light;
+  }
+
+  .social-icon:nth-child(odd) {
+    color: $color-gray-normal;
+  }
+
+  .social-icon:hover {
+    color: $color-gray-dark;
+  }
+}

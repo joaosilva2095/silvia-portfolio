@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Facebook",
+    "icon": "fab fa-facebook",
+    "link": "https://www.facebook.com/silviaavila1212"
+  },
+  {
+    "title": "Instagram",
+    "icon": "fab fa-instagram",
+    "link": "https://www.instagram.com/littlegirl_hugedreamer/"
+  },
+  {
+    "title": "Email",
+    "icon": "fas fa-envelope",
+    "link": "mailto:s.n.m.avila12@gmail.com"
+  },
+  {
+    "title": "YouTube",
+    "icon": "fab fa-youtube",
+    "link": "https://www.youtube.com/snmavila12"
+  }
+]
