@@ -6,18 +6,22 @@
 </head>
 
 <body class="h-100">
-<main class="h-100">
+<main class="h-100" data-spy="scroll" data-target="#navbar">
     {% include 'components/navbar.nj' %}
     {% include 'components/header.nj' %}
 
     <!-- Gallery -->
     <section class="row ml-lg-2 mr-lg-5">
-        {% import "components/gallery-item.nj" as gallery %}
-        {% for item in galleryItems %}
-            <div class="col-4">
-                {{ gallery.item("https://pbs.twimg.com/profile_images/949374088249671680/MuxDEZpD_400x400.jpg") }}
+        <div class="col-lg-9">
+            <div class="row">
+                {% import "components/gallery-item.nj" as gallery %}
+                {% for item in galleryItems %}
+                    <div class="col-lg-4 d-flex justify-content-center">
+                        {{ gallery.item("https://pbs.twimg.com/profile_images/949374088249671680/MuxDEZpD_400x400.jpg") }}
+                    </div>
+                {% endfor %}
             </div>
-        {% endfor %}
+        </div>
     </section>
 </main>
 </body>

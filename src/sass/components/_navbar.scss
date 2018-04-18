@@ -10,7 +10,7 @@ div.navbar-pretty {
     right: 0;
     width: $width-tiny;
     height: $height-tiny;
-    margin-top:-1rem;
+    margin-top: -1rem;
     margin-right: -1rem;
   }
 
@@ -24,35 +24,26 @@ div.navbar-pretty {
   nav.nav > .collapse {
     margin-right: $margin-tiny;
 
-    li {
-      transition: margin 0.1s;
-      margin: $margin-tiny 0;
-    }
-
-    li.active {
-      transition: margin 0.1s;
-      margin: $margin-xxx-large 0;
-    }
-
     a {
-      transition: padding 0.1s;
+      transition: all 0.1s;
       width: $width-small;
       box-sizing: content-box;
       background-color: $color-gray-normal;
+      background-clip: padding-box;
       color: white;
+      border: 0.5rem solid transparent;
     }
 
-    li.active a,
+    a.active {
+      margin: $margin-xxx-large 0;
+    }
+
+    a.active,
     a:hover {
-      transition: padding 0.1s;
-      padding: $margin-tiny $margin-large;
-
+      color: $color-gray-dark;
       background-color: $color-gray-light;
-      border: solid 0.1rem $color-gray-normal;
-
-      a {
-        color: $color-gray-dark;
-      }
+      border: 0.5rem solid $color-gray-light;
+      outline: 0.2rem solid $color-gray-normal;
     }
   }
 }
