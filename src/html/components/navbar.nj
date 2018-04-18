@@ -8,7 +8,7 @@
                 <i class="fa fa-lg fa-align-justify"></i>
             </button>
 
-            <div class="navbar-collapse collapse navbar-nav flex-column align-items-end text-center" id="navbar">
+            <div class="navbar-collapse navbar-nav flex-column align-items-end text-center" id="navbar">
                 <a class="nav-item nav-link" href="#gallery">Gallery</a>
                 <a class="nav-item nav-link" href="#">Random Posts</a>
                 <a class="nav-item nav-link" href="#">Curriculum</a>

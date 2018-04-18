@@ -11,13 +11,17 @@
     {% include 'components/header.nj' %}
 
     <!-- Gallery -->
-    <section id="gallery" class="row ml-lg-2 mr-lg-5">
-        {% import "components/gallery-item.nj" as gallery %}
-        {% for item in galleryItems %}
-            <div class="col-4">
-                {{ gallery.item("https://pbs.twimg.com/profile_images/949374088249671680/MuxDEZpD_400x400.jpg") }}
+    <section id="gallery" class="row no-gutters ml-lg-2 mr-lg-5">
+        <div class="col-12 col-lg-9">
+            <div class="row no-gutters">
+                {% import "components/gallery-item.nj" as gallery %}
+                {% for item in galleryItems %}
+                    <div class="col-4">
+                        {{ gallery.item("https://pbs.twimg.com/profile_images/949374088249671680/MuxDEZpD_400x400.jpg") }}
+                    </div>
+                {% endfor %}
             </div>
-        {% endfor %}
+        </div>
     </section>
 </main>
 </body>

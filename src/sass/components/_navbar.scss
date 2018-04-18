@@ -21,7 +21,11 @@ div.navbar-pretty {
     color: white;
   }
 
-  nav.nav > .collapse {
+  nav.nav > .navbar-collapse {
+    @include phone {
+      display: none;
+    }
+
     margin-right: $margin-tiny;
 
     a {
