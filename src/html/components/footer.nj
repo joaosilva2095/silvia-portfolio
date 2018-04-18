@@ -1,8 +1,8 @@
 <footer id="contacts" class="d-flex flex-column flex-lg-row justify-content-center justify-content-lg-end align-items-center">
-    <p class="mb-0">Contactos</p>
+    <p class="mb-0 mr-lg-4">Contactos</p>
     <div class="mr-lg-5 d-flex justify-content-center align-items-center">
         {% for item in socialMedia %}
-            <a class="h-100 mx-3 d-flex align-items-center social-icon"
+            <a class="h-100 mx-2 mx-lg-4 d-flex align-items-center social-icon"
                href="{{ item.link }}" target="_blank"
                rel="noopener noreferrer"
                title="{{ item.title }}" itemprop="url">
