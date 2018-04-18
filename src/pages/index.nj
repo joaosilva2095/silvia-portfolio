@@ -5,13 +5,13 @@
     {% include 'abstract/head.nj' %}
 </head>
 
-<body class="h-100">
-<main class="h-100" data-spy="scroll" data-target="#navbar">
+<body class="h-100" data-spy="scroll" data-target="#navbar" data-offset="0">
+<main class="h-100">
     {% include 'components/navbar.nj' %}
     {% include 'components/header.nj' %}
 
     <!-- Gallery -->
-    <section class="row ml-lg-2 mr-lg-5">
+    <section id="gallery" class="row ml-lg-2 mr-lg-5">
         <div class="col-lg-9">
             <div class="row">
                 {% import "components/gallery-item.nj" as gallery %}
@@ -22,6 +22,18 @@
                 {% endfor %}
             </div>
         </div>
+    </section>
+
+    <!-- Random Posts -->
+    <section id="randomPosts" class="row ml-lg-2 mr-lg-5">
+    </section>
+
+    <!-- Curriculum -->
+    <section id="curriculum" class="row ml-lg-2 mr-lg-5">
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="row ml-lg-2 mr-lg-5">
     </section>
 </main>
 </body>
