@@ -2,6 +2,65 @@ body {
   position: relative;
 }
 
+.gallery-wrapper {
+  position: relative;
+  border: 1rem solid $color-lilac-super-light;
+}
+
+.gallery-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  box-shadow: 0 0 0 0.1rem $color-lilac-dark inset;
+}
+
 .random-posts-container {
   background-color: #d5d5d5;
+}
+
+.triangle-top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 0;
+  height: 0;
+  border-top: $width-tiny solid $color-lilac-super-light;
+  border-right: $width-tiny solid transparent;
+}
+
+.triangle-top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 0;
+  height: 0;
+  border-top: $width-tiny solid $color-lilac-super-light;
+  border-left: $width-tiny solid transparent;
+}
+
+.triangle-bottom-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 0;
+  height: 0;
+  border-bottom: $width-tiny solid $color-lilac-super-light;
+  border-right: $width-tiny solid transparent;
+}
+
+.triangle-bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  width: 0;
+  height: 0;
+  border-bottom: $width-tiny solid $color-lilac-super-light;
+  border-left: $width-tiny solid transparent;
 }
