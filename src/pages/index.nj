@@ -5,13 +5,13 @@
     {% include 'abstract/head.nj' %}
 </head>
 
-<body class="h-100">
+<body class="h-100" data-spy="scroll" data-target="#navbar" data-offset="0">
 <main class="h-100">
     {% include 'components/navbar.nj' %}
     {% include 'components/header.nj' %}
 
     <!-- Gallery -->
-    <section class="row ml-lg-2 mr-lg-5">
+    <section id="gallery" class="row ml-lg-2 mr-lg-5">
         {% import "components/gallery-item.nj" as gallery %}
         {% for item in galleryItems %}
             <div class="col-4">
