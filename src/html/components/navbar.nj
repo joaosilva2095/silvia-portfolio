@@ -12,7 +12,7 @@
                 <a class="nav-item nav-link" href="#gallery">Gallery</a>
                 <a class="nav-item nav-link" href="#randomPosts">Random Posts</a>
                 <a class="nav-item nav-link" href="#">Curriculum</a>
-                <a class="nav-item nav-link" href="#">Contact</a>
+                <a class="nav-item nav-link" href="#contacts">Contact</a>
             </div>
         </nav>
     </div>
