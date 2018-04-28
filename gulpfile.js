@@ -25,7 +25,8 @@ gulp.task('other-files', function () {
     return gulp.src([
             'src/robots.txt',
             'src/sitemap.xml',
-            'src/vendor/**'],
+            'src/vendor/**',
+            'src/assets/**'],
         {
             base: 'src'
         }).pipe(gulp.dest(distPath));
@@ -39,7 +40,7 @@ gulp.task('default', ['start']);
 gulp.task('sass', function () {
     return gulp.src('src/sass/*', {base: 'src/sass'})
         .pipe(sass({
-            includePaths: ['css'],
+            includePaths: ['src/vendor/css'],
             onError: browserSync.notify
         }))
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], {cascade: true}))
