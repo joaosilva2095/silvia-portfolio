@@ -63,10 +63,41 @@ body {
   position: relative;
   background-color: #d5d5d5;
 
+  .profile-picture {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+
+    @include phone {
+      width: $width-small;
+      height: $width-small;
+    }
+
+    @include tablet {
+      width: $width-regular;
+      height: $width-regular;
+    }
+
+    @include desktop {
+      width: $width-regular;
+      height: $width-regular;
+    }
+
+    @include tv {
+      width: $width-large;
+      height: $width-large;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
   .corner-horizontal {
     position: absolute;
-    top: 3rem;
-    left: 3rem;
+    top: 5%;
+    left: 5%;
     background: $color-lilac-light;
 
     @include phone {
@@ -74,16 +105,26 @@ body {
       height: $height-tiny *0.5;
     }
 
+    @include tablet {
+      width: $width-small;
+      height: $height-tiny *0.5;
+    }
+
     @include desktop {
-      width: $width-large;
+      width: $width-regular;
       height: $height-tiny;
+    }
+
+    @include tv {
+      width: $width-large;
+      height: $height-regular;
     }
   }
 
   .corner-vertical {
     position: absolute;
-    top: 3rem;
-    left: 3rem;
+    top: 5%;
+    left: 5%;
     background: $color-lilac-light;
 
     @include phone {
@@ -91,8 +132,18 @@ body {
       height: $width-small;
     }
 
+    @include tablet {
+      width: $height-tiny *0.5;
+      height: $width-small;
+    }
+
     @include desktop {
       width: $height-tiny;
+      height: $width-regular;
+    }
+
+    @include tv {
+      width: $height-small;
       height: $width-large;
     }
   }
