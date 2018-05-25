@@ -1,6 +1,8 @@
-{% macro item(url) %}
-    <div class="gallery-item">
-        <img src="{{ url }}"
-             width="50" height="100"/>
+{% macro item(link, image) %}
+    <div class="gallery-item d-flex align-items-stretch">
+        <a href="{{ link }}">
+            <img src="{{ image }}"
+                 width="50" height="100"/>
+        </a>
     </div>
 {% endmacro %}

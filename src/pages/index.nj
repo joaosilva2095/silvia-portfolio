@@ -23,7 +23,7 @@
                 {% import "components/gallery-item.nj" as gallery %}
                 {% for item in galleryItems %}
                     <div class="col-10 col-lg-4 my-4 d-flex justify-content-center">
-                        {{ gallery.item(item.image) }}
+                        {{ gallery.item(item.link, item.image) }}
                     </div>
                 {% endfor %}
             </div>
@@ -34,10 +34,17 @@
     <section id="randomPosts" class="row no-gutters py-5 random-posts-wrapper">
         <div class="corner-horizontal"></div>
         <div class="corner-vertical"></div>
+    </section>
+
+    <!-- Curriculum -->
+    <!--<section id="curriculum" class="row no-gutters py-5 random-posts-wrapper">
+        <div class="corner-horizontal"></div>
+        <div class="corner-vertical"></div>
         <div class="profile-picture">
             <img src="{{  settings.profile_picture }}"/>
         </div>
-    </section>
+        <h3>About Me</h3>
+    </section>-->
 
     {% include 'components/footer.nj' %}
 </main>
