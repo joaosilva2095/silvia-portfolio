@@ -1,10 +1,35 @@
 .gallery-item {
-  padding: $padding-regular;
-  height: 60vh;
+  @include phone {
+    width: $width-regular;
+    height: $width-regular;
+    padding-left: 0.125 * $width-regular;
+    padding-right: 0.125 * $width-regular;
+  }
+
+  @include tablet {
+    width: $width-regular;
+    height: $width-regular;
+    padding-left: 0.125 * $width-regular;
+    padding-right: 0.125 * $width-regular;
+  }
+
+  @include desktop {
+    width: $width-regular;
+    height: $width-regular;
+    padding-left: 0.125 * $width-regular;
+    padding-right: 0.125 * $width-regular;
+  }
+
+  @include tv {
+    width: $width-large;
+    height: $width-large;
+    padding-left: 0.125 * $width-large;
+    padding-right: 0.125 * $width-large;
+  }
 
   img {
+    clear: both;
     height: 100%;
-    width: auto;
-    max-width: 100%;
+    width: 100%;
   }
 }

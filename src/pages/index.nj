@@ -18,11 +18,11 @@
         <div class="triangle-bottom-left"></div>
         <div class="triangle-bottom-right"></div>
 
-        <div class="col-12 offset-lg-1 col-lg-7">
-            <div class="row no-gutters">
+        <div class="col-12 col-lg-9">
+            <div class="row no-gutters justify-content-center">
                 {% import "components/gallery-item.nj" as gallery %}
                 {% for item in galleryItems %}
-                    <div class="col-12 col-lg-4">
+                    <div class="col-10 col-lg-4 my-4 d-flex justify-content-center">
                         {{ gallery.item(item.image) }}
                     </div>
                 {% endfor %}

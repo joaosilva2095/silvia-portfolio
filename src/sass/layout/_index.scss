@@ -48,6 +48,7 @@ body {
   }
 
   .gallery-frame {
+    pointer-events: none;
     position: absolute;
     top: 0;
     left: 0;

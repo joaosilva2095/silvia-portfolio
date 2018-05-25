@@ -60,29 +60,39 @@ header {
   }
 
   .header-image {
+    @include phone {
+      width: $width-regular;
+      height: $width-regular;
+      padding-left: 0.125 * $width-regular;
+      padding-right: 0.125 * $width-regular;
+    }
+
+    @include tablet {
+      width: $width-regular;
+      height: $width-regular;
+      padding-left: 0.125 * $width-regular;
+      padding-right: 0.125 * $width-regular;
+    }
+
+    @include desktop {
+      width: $width-large;
+      height: $width-large;
+      padding-left: 0.125 * $width-large;
+      padding-right: 0.125 * $width-large;
+    }
+
+    @include tv {
+      width: $width-large;
+      height: $width-large;
+      padding-left: 0.125 * $width-large;
+      padding-right: 0.125 * $width-large;
+    }
+
     img {
       outline: solid 0.2rem $color-lilac-dark;
       outline-offset: 0.5rem;
-
-      @include phone {
-        width: $width-small;
-        height: $height-large;
-      }
-
-      @include tablet {
-        width: $width-regular;
-        height: $height-xx-large;
-      }
-
-      @include desktop {
-        width: $width-regular;
-        height: $height-xx-large;
-      }
-
-      @include tv {
-        width: $width-large;
-        height: $height-xxx-large;
-      }
+      width: 100%;
+      height: 100%;
     }
   }
 }
