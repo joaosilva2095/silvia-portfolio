@@ -72,34 +72,57 @@ footer {
   }
 }
 
-img {
-  @include phone {
-    width: $width-regular;
-    height: $width-regular;
-    padding-left: 0.125 * $width-regular;
-    padding-right: 0.125 * $width-regular;
+.gallery-slider {
+  position: relative;
+
+  img {
+    @include phone {
+      width: $width-regular;
+      height: $width-regular;
+      padding-left: 0.125 * $width-regular;
+      padding-right: 0.125 * $width-regular;
+    }
+
+    @include tablet {
+      width: $width-large;
+      height: $width-large;
+      padding-left: 0.125 * $width-large;
+      padding-right: 0.125 * $width-large;
+    }
+
+    @include desktop {
+      width: $width-large;
+      height: $width-large;
+      padding-left: 0.125 * $width-large;
+      padding-right: 0.125 * $width-large;
+    }
+
+    @include tv {
+      width: $width-large;
+      height: $width-large;
+      padding-left: 0.125 * $width-large;
+      padding-right: 0.125 * $width-large;
+    }
+
+    border: 0.5rem solid $color-gray-normal;
   }
 
-  @include tablet {
-    width: $width-large;
-    height: $width-large;
-    padding-left: 0.125 * $width-large;
-    padding-right: 0.125 * $width-large;
-  }
+  .slide-button {
+    top: 50%;
+    position: absolute;
+    padding: $padding-tiny;
+    border-radius: 50%;
+    border: none;
+    background-color: $color-lilac-light;
 
-  @include desktop {
-    width: $width-large;
-    height: $width-large;
-    padding-left: 0.125 * $width-large;
-    padding-right: 0.125 * $width-large;
-  }
+    &.prev {
+      left: 0;
+    }
 
-  @include tv {
-    width: $width-large;
-    height: $width-large;
-    padding-left: 0.125 * $width-large;
-    padding-right: 0.125 * $width-large;
+    &.next {
+      right: 0;
+    }
   }
-
-  border: 0.5rem solid $color-gray-normal;
 }
+
+

@@ -17,22 +17,22 @@
 
     <div class="mt-2 p-5 row">
         <div class="col-lg-6">
-            <h4 class="mt-5">30/03/1980</h4>
-            <h1 class="my-5 ml-2">Título do Trabalho</h1>
+            <h4 class="mt-5">{{ date }}</h4>
+            <h1 class="my-5 ml-2">{{ title }}</h1>
 
             <div class="pr-lg-5 my-5 text-justify">
-                <p>Sipnose (I guess) hahah blablabala.</p>
-                <p>Não tenho net para ir buscar o texto latim todo fag.</p>
-                <p>mais ou menos blablabl ablab alba labl ablablabla e depois para acabar mais parlapier</p>
-                <p>( acho qe é assim qe se escreve) devia vender este texto.</p>
-                <p>Bem melhor que o latim!!</p>
-
-                <p>Sqn... xD</p>
+                {% block description %}{% endblock %}
             </div>
         </div>
-        <div class="col-lg-6 d-flex justify-content-center gallery-slider">
-            <img src="https://picsum.photos/200/300/?image=243"
-                 width="50" height="100"/>
+        <div class="offset-lg-1 col-lg-4 d-flex justify-content-center align-items-center gallery-slider">
+            {% for image in images %}
+                <img class="slide-image"
+                     src="{{ image.url }}"
+                     width="50" height="100"/>
+            {% endfor %}
+
+            <button class="slide-button prev" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="slide-button next" onclick="plusDivs(+1)">&#10095;</button>
         </div>
     </div>
 
@@ -42,4 +42,5 @@
 </body>
 
 {% include 'abstract/scripts.nj' %}
+<script defer rel="text/javascript" src="/js/slideshow.js"></script>
 </html>
