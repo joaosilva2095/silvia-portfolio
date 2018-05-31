@@ -1,6 +1,10 @@
 @import '../abstracts/module';
 @import '../base/module';
 
+body {
+  color: $color-lilac-dark;
+}
+
 footer {
   background-color: transparent;
 }

@@ -15,7 +15,25 @@
     <div class="triangle-bottom-left"></div>
     <div class="triangle-bottom-right"></div>
 
-    <div style="height:1000px"></div>
+    <div class="mt-2 p-5 row">
+        <div class="col-6">
+            <h4 class="mt-5">30/03/1980</h4>
+            <h1 class="my-5 ml-2">Título do Trabalho</h1>
+
+            <div class="pr-5 my-5 text-justify">
+                <p>Sipnose (I guess) hahah blablabala.</p>
+                <p>Não tenho net para ir buscar o texto latim todo fag.</p>
+                <p>mais ou menos blablabl ablab alba labl ablablabla e depois para acabar mais parlapier</p>
+                <p>( acho qe é assim qe se escreve) devia vender este texto.</p>
+                <p>Bem melhor que o latim!!</p>
+
+                <p>Sqn... xD</p>
+            </div>
+        </div>
+        <div class="col-6">
+
+        </div>
+    </div>
 
     {% include 'components/footer.nj' %}
 </main>
