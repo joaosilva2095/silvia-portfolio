@@ -38,7 +38,7 @@ gulp.task('default', ['start']);
  * Development
  */
 gulp.task('sass', function () {
-    return gulp.src('src/sass/**/*', {base: 'src/sass'})
+    return gulp.src(['src/sass/main.scss', 'src/sass/layout/*'], {base: 'src/sass'})
         .pipe(sass({
             includePaths: ['src/vendor/css'],
             onError: browserSync.notify

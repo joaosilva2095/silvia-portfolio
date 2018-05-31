@@ -2,7 +2,13 @@
 @import '../base/module';
 
 body {
+  height: 100%;
+  min-height: 100%;
   color: $color-lilac-dark;
+}
+
+main {
+  min-height: 100%;
 }
 
 footer {
@@ -64,4 +70,36 @@ footer {
     z-index: 999;
     box-shadow: 0 0 0 0.1rem $color-lilac-dark inset;
   }
+}
+
+img {
+  @include phone {
+    width: $width-regular;
+    height: $width-regular;
+    padding-left: 0.125 * $width-regular;
+    padding-right: 0.125 * $width-regular;
+  }
+
+  @include tablet {
+    width: $width-large;
+    height: $width-large;
+    padding-left: 0.125 * $width-large;
+    padding-right: 0.125 * $width-large;
+  }
+
+  @include desktop {
+    width: $width-large;
+    height: $width-large;
+    padding-left: 0.125 * $width-large;
+    padding-right: 0.125 * $width-large;
+  }
+
+  @include tv {
+    width: $width-large;
+    height: $width-large;
+    padding-left: 0.125 * $width-large;
+    padding-right: 0.125 * $width-large;
+  }
+
+  border: 0.5rem solid $color-gray-normal;
 }
