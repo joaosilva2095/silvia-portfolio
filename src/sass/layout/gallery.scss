@@ -91,17 +91,17 @@ footer {
     }
 
     @include desktop {
-      width: $width-large;
-      height: $width-large;
-      padding-left: 0.125 * $width-large;
-      padding-right: 0.125 * $width-large;
+      width: $width-x-large;
+      height: $width-x-large;
+      padding-left: 0.125 * $width-x-large;
+      padding-right: 0.125 * $width-x-large;
     }
 
     @include tv {
-      width: $width-large;
-      height: $width-large;
-      padding-left: 0.125 * $width-large;
-      padding-right: 0.125 * $width-large;
+      width: $width-xx-large;
+      height: $width-xx-large;
+      padding-left: 0.125 * $width-xx-large;
+      padding-right: 0.125 * $width-xx-large;
     }
 
     border: 0.5rem solid $color-gray-normal;

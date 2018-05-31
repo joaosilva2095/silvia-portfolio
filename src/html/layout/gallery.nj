@@ -24,7 +24,7 @@
                 {% block description %}{% endblock %}
             </div>
         </div>
-        <div class="offset-lg-1 col-lg-4 d-flex justify-content-center align-items-center gallery-slider">
+        <div class="col-lg-6 d-flex justify-content-center align-items-center gallery-slider">
             {% for image in images %}
                 <img class="slide-image"
                      src="{{ image.url }}"
@@ -35,8 +35,6 @@
             <button class="slide-button next" onclick="plusDivs(+1)">&#10095;</button>
         </div>
     </div>
-
-    {% include 'components/footer.nj' %}
 </main>
 
 </body>

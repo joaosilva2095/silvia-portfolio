@@ -32,6 +32,22 @@
         </div>
     </section>
 
+    <!-- Random posts -->
+    <section id="randomPosts" class="row no-gutters py-5 random-posts-wrapper">
+        <div class="corner-horizontal"></div>
+        <div class="corner-vertical"></div>
+    </section>
+
+    <!-- Curriculum -->
+    <!--<section id="curriculum" class="row no-gutters py-5 random-posts-wrapper">
+        <div class="corner-horizontal"></div>
+        <div class="corner-vertical"></div>
+        <div class="profile-picture">
+            <img src="{{  settings.profile_picture }}"/>
+        </div>
+        <h3>About Me</h3>
+    </section>-->
+
     {% include 'components/footer.nj' %}
 </main>
 
