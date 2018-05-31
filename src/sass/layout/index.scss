@@ -1,5 +1,12 @@
+@import '../abstracts/module';
+@import '../base/module';
+
 body {
   position: relative;
+}
+
+footer {
+  background-color: #3d3d73;
 }
 
 .gallery-wrapper {

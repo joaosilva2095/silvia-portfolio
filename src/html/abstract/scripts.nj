@@ -1,10 +1,10 @@
 <!-- Vendor JavaScript -->
-<script src="vendor/js/jquery.min.js"></script>
-<script src="vendor/js/popper.min.js"></script>
+<script src="/vendor/js/jquery.min.js"></script>
+<script src="/vendor/js/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"
         integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
         crossorigin="anonymous"></script>
-<script defer rel="text/javascript" src="vendor/js/jquery.unveil.js"></script>
+<script defer rel="text/javascript" src="/vendor/js/jquery.unveil.js"></script>
 <!-- Local JavaScript -->
-<script defer rel="text/javascript" src="js/script.js"></script>
+<script defer rel="text/javascript" src="/js/script.js"></script>

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+    {% include 'abstract/head.nj' %}
+
+    <link rel="stylesheet" href="/css/layout/gallery.css"/>
+</head>
+
+<body>
+<main class="gallery-wrapper">
+    <div class="gallery-frame"></div>
+    <div class="triangle-top-left"></div>
+    <div class="triangle-top-right"></div>
+    <div class="triangle-bottom-left"></div>
+    <div class="triangle-bottom-right"></div>
+
+    <div style="height:1000px"></div>
+
+    {% include 'components/footer.nj' %}
+</main>
+
+</body>
+
+{% include 'abstract/scripts.nj' %}
+</html>
