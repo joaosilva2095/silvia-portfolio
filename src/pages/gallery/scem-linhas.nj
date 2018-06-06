@@ -1,0 +1,48 @@
+{% extends "layout/gallery.nj" %}
+
+{% set title = 'S/cem Linhas' %}
+{% set date = 'Junho 2018' %}
+
+{% block description %}
+    <p>"Num quarto escuro.</p>
+    <p>A imaginação são linhas que ganham forma, padrões sem lógica.</p>
+    <p>Cada um vê o que o inconsciente guarda e assim o branco é branco para todos mas nunca igual para cada um."</p>
+
+    <p>Técnica: Stopmotion, projeção de uma animação de recortes a cores, sem som. Formato da imagem 16: 9; Gravação em
+        HD.</p>
+
+    <p>Dimensões: 3metros por 1,50 metros.</p>
+
+    <p>Link de acesso: <a href="https://youtu.be/Fo1a2e8NNss" target="_blank">https://youtu.be/Fo1a2e8NNss</a></p>
+{% endblock %}
+
+{% set images =
+    [
+        {
+            url: 'https://res.cloudinary.com/joaosilva2095/image/upload/f_auto,q_auto/v1528327013/S%C3%ADlvia/Portf%C3%B3lio/Scem%20Linhas/7.1.png'
+        },
+        {
+            url: 'https://res.cloudinary.com/joaosilva2095/image/upload/f_auto,q_auto/v1528327013/S%C3%ADlvia/Portf%C3%B3lio/Scem%20Linhas/7.2.png'
+        },
+        {
+            url: 'https://res.cloudinary.com/joaosilva2095/image/upload/f_auto,q_auto/v1528327013/S%C3%ADlvia/Portf%C3%B3lio/Scem%20Linhas/7.3.png'
+        },
+        {
+            url: 'https://res.cloudinary.com/joaosilva2095/image/upload/f_auto,q_auto/v1528327013/S%C3%ADlvia/Portf%C3%B3lio/Scem%20Linhas/7.4.png'
+        },
+        {
+            url: 'https://res.cloudinary.com/joaosilva2095/image/upload/f_auto,q_auto/v1528327013/S%C3%ADlvia/Portf%C3%B3lio/Scem%20Linhas/7.5.png'
+        },
+        {
+            url: 'https://res.cloudinary.com/joaosilva2095/image/upload/f_auto,q_auto/v1528327013/S%C3%ADlvia/Portf%C3%B3lio/Scem%20Linhas/7.6.png'
+        },
+        {
+            url: 'https://res.cloudinary.com/joaosilva2095/image/upload/f_auto,q_auto/v1528327013/S%C3%ADlvia/Portf%C3%B3lio/Scem%20Linhas/7.7.png'
+        },
+        {
+            url: 'https://res.cloudinary.com/joaosilva2095/image/upload/f_auto,q_auto/v1528327013/S%C3%ADlvia/Portf%C3%B3lio/Scem%20Linhas/7.0.png'
+        },
+        {
+            url: 'https://res.cloudinary.com/joaosilva2095/image/upload/f_auto,q_auto/v1528327013/S%C3%ADlvia/Portf%C3%B3lio/Scem%20Linhas/7.9.png'
+        }
+    ] %}

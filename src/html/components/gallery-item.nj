@@ -1,7 +1,10 @@
-{% macro item(title, link, image) %}
+{% macro item(title, date, link, image) %}
     <div class="gallery-item d-flex align-items-stretch">
-        <a href="{{ link }}">
-            <div class="text-center align-items-center justify-content-center gallery-item-title">{{ title }}</div>
+        <a href="/gallery/{{ link }}">
+            <div class="flex-column text-center align-items-center justify-content-center gallery-item-title">
+                <h4>{{ title }}</h4>
+                <p>{{ date }}</p>
+            </div>
             <img src="{{ image }}"
                  width="50" height="100"/>
         </a>

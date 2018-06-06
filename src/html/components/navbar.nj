@@ -1,6 +1,7 @@
 <div class="h-100 fixed-top d-flex flex-column justify-content-center align-items-end navbar-container">
     <div class="d-flex flex-column justify-content-end align-items-end mr-lg-5 navbar-pretty">
-        <img src="assets/images/sidebar_circles.png" alt="Navigation Circles" height="50" width="60">
+        <img src="https://res.cloudinary.com/joaosilva2095/image/upload/f_auto,q_auto/v1528324757/S%C3%ADlvia/Portf%C3%B3lio/sidebar_circles.png"
+             alt="Navigation Circles" height="50" width="60">
 
         <nav class="nav navbar-expand-lg navbar-light text-right justify-content-end">
             <button class="navbar-toggler" type="button" data-toggle="slide-collapse" data-target="#navbar"
@@ -9,10 +10,10 @@
             </button>
 
             <div class="navbar-collapse navbar-nav flex-column align-items-end text-center" id="navbar">
-                <a class="nav-item nav-link" href="#gallery">Gallery</a>
-                <a class="nav-item nav-link" href="#randomPosts">Random Posts</a>
-                <!--<a class="nav-item nav-link" href="#">Curriculum</a>-->
-                <a class="nav-item nav-link" href="#contacts">Contact</a>
+                <a class="nav-item nav-link" href="#gallery">Galeria</a>
+                <a class="nav-item nav-link" href="#randomPosts">Exercícios</a>
+                <!--<a class="nav-item nav-link" href="#">Currículo</a>-->
+                <a class="nav-item nav-link" href="#contacts">Contactos</a>
             </div>
         </nav>
     </div>

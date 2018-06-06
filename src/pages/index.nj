@@ -25,7 +25,7 @@
                 {% import "components/gallery-item.nj" as gallery %}
                 {% for item in galleryItems %}
                     <div class="col-10 col-lg-4 my-4 d-flex justify-content-center">
-                        {{ gallery.item(item.title, item.link + ".html", item.image) }}
+                        {{ gallery.item(item.title, item.date, item.link + ".html", item.image) }}
                     </div>
                 {% endfor %}
             </div>
