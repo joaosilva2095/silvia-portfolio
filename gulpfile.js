@@ -49,8 +49,7 @@ gulp.task('sass', function () {
 });
 
 gulp.task('js', function () {
-    return gulp.src('src/js/**/*.js', {base: 'src'})
-        .pipe(concat('script.js'))
+    return gulp.src('src/js/**/*.js', {base: 'src/js'})
         .pipe(gulp.dest(distPath + 'js'))
         .pipe(browserSync.reload({stream: true}))
 });
@@ -106,8 +105,7 @@ gulp.task('sass-prod', function () {
 });
 
 gulp.task('js-prod', function () {
-    return gulp.src('src/js/**/*.js', {base: 'src'})
-        .pipe(concat('script.js'))
+    return gulp.src('src/js/**/*.js', {base: 'src/js'})
         .pipe(minify({
             ext: {
                 min: '.js'

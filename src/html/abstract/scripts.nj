@@ -8,3 +8,4 @@
 <script defer rel="text/javascript" src="/vendor/js/jquery.unveil.js"></script>
 <!-- Local JavaScript -->
 <script defer rel="text/javascript" src="/js/script.js"></script>
+<script defer rel="text/javascript" src="/js/navbar.js"></script>

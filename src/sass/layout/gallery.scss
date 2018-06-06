@@ -79,29 +79,29 @@ footer {
     @include phone {
       width: $width-regular;
       height: $width-regular;
-      padding-left: 0.125 * $width-regular;
-      padding-right: 0.125 * $width-regular;
+      padding-left: ((1 - (4/5))/2) * $width-regular;
+      padding-right: ((1 - (4/5))/2) * $width-regular;
     }
 
     @include tablet {
       width: $width-large;
       height: $width-large;
-      padding-left: 0.125 * $width-large;
-      padding-right: 0.125 * $width-large;
+      padding-left: ((1 - (4/5))/2) * $width-large;
+      padding-right: ((1 - (4/5))/2) * $width-large;
     }
 
     @include desktop {
       width: $width-x-large;
       height: $width-x-large;
-      padding-left: 0.125 * $width-x-large;
-      padding-right: 0.125 * $width-x-large;
+      padding-left: ((1 - (4/5))/2) * $width-x-large;
+      padding-right: ((1 - (4/5))/2) * $width-x-large;
     }
 
     @include tv {
       width: $width-xx-large;
       height: $width-xx-large;
-      padding-left: 0.125 * $width-xx-large;
-      padding-right: 0.125 * $width-xx-large;
+      padding-left: ((1 - (4/5))/2) * $width-xx-large;
+      padding-right: ((1 - (4/5))/2) * $width-xx-large;
     }
 
     border: 0.5rem solid $color-gray-normal;

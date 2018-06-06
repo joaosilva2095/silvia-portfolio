@@ -2,29 +2,29 @@
   @include phone {
     width: $width-regular;
     height: $width-regular;
-    padding-left: 0.125 * $width-regular;
-    padding-right: 0.125 * $width-regular;
+    padding-left: ((1 - (4/5))/2) * $width-regular;
+    padding-right: ((1 - (4/5))/2) * $width-regular;
   }
 
   @include tablet {
     width: $width-regular;
     height: $width-regular;
-    padding-left: 0.125 * $width-regular;
-    padding-right: 0.125 * $width-regular;
+    padding-left: ((1 - (4/5))/2) * $width-regular;
+    padding-right: ((1 - (4/5))/2) * $width-regular;
   }
 
   @include desktop {
     width: $width-regular;
     height: $width-regular;
-    padding-left: 0.125 * $width-regular;
-    padding-right: 0.125 * $width-regular;
+    padding-left: ((1 - (4/5))/2) * $width-regular;
+    padding-right: ((1 - (4/5))/2) * $width-regular;
   }
 
   @include tv {
     width: $width-large;
     height: $width-large;
-    padding-left: 0.125 * $width-large;
-    padding-right: 0.125 * $width-large;
+    padding-left: ((1 - (4/5))/2) * $width-large;
+    padding-right: ((1 - (4/5))/2) * $width-large;
   }
 
   a {
