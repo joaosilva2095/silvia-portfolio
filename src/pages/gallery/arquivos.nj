@@ -4,16 +4,15 @@
 {% set date = 'Abril 2018' %}
 
 {% block description %}
-    <p>A proposta foi realizada em conjunto com a minha colega Bruna Gomes.</p>
-    <p>O trabalho teve como objetivo desenvolver um projeto derivado do conceito cinema expandido onde aspetos como as
-        experiências cinemáticas, as imagens performativas, o espaço, a instalação e a provocação ao espectador
-        emancipado estivem presentes.</p>
-    <p>O suporte de projeção numa dimensão de distorção da imagem e da provocação de desconforto na falta de espaço de
-        forma a perseguir o espectador. Desenvolvemo-lo num ambiente de individual angustiante e de sensações
-        claustrofobicas.</p>
-    <p>Após uma primeira tentativa mal sucedida de pôr em prática o trabalho, refiz corrigindo as descoerências do
-        espaço e dimensão com o material e a projeção, correspondida assim a ideia de perseguição e apelo às
-        características e qualidade de projeção da proposta inicial do trabalho.</p>
+    <p>O arquivo era o ponto de partida no processo de trabalho desta proposta. Uma vez escolhido foi do meu interesse,
+        em coerência com os meus trabalhos anteriores manter o trabalho com o corpo, o meu corpo.</p>
+    <p>A minha escolha surgiu duma procura a algo do passado onde me confrontei com várias ideias de infância que com o
+        meu crescimento amadureceram. Observar e reviver a minha coleção de bonecas Barbie, fez-me perceber como algumas
+        ideias que defendia em criança agora me debato contra elas.</p>
+    <p>A principal é o corpo. A forma desumana das bonecas que inspiravam todas as meninas da minha idade e provocavam
+        nelas uma procura de uma forma corporal impossivel e mais do que isso pouco funcional.</p>
+    <p>Assim desenvolvi uma performance onde essa forma desumana e o confronto com esse facto se evidenciaram entre os
+        clássicos passos do ballet, a dança contemporânea e alguns passos teatrais.</p>
 {% endblock %}
 
 {% set images =

@@ -1,19 +1,19 @@
 {% extends "layout/gallery.nj" %}
 
-{% set title = 'Performance para a Câmera' %}
+{% set title = 'Performance para a Câmera: "Its not me"' %}
 {% set date = 'Janeiro 2017' %}
 
 {% block description %}
-    <p>A proposta foi realizada em conjunto com a minha colega Bruna Gomes.</p>
-    <p>O trabalho teve como objetivo desenvolver um projeto derivado do conceito cinema expandido onde aspetos como as
-        experiências cinemáticas, as imagens performativas, o espaço, a instalação e a provocação ao espectador
-        emancipado estivem presentes.</p>
-    <p>O suporte de projeção numa dimensão de distorção da imagem e da provocação de desconforto na falta de espaço de
-        forma a perseguir o espectador. Desenvolvemo-lo num ambiente de individual angustiante e de sensações
-        claustrofobicas.</p>
-    <p>Após uma primeira tentativa mal sucedida de pôr em prática o trabalho, refiz corrigindo as descoerências do
-        espaço e dimensão com o material e a projeção, correspondida assim a ideia de perseguição e apelo às
-        características e qualidade de projeção da proposta inicial do trabalho.</p>
+    <p>Esta proposta procurou desenvolver um trabalho prático onde a realização duma performance aconteceria e a mesma
+        seria registada. Este registo deveria ser pensado para uma imagem visual captada por uma câmara fotográfica ou
+        videográfica. Esta tinha interesse em questionar a dimensão do público de tal ação, a existência de público, a
+        ficção do documento ou a teatralidade do gesto artístico.</p>
+    <p>O desafio de realizar uma performance para a câmara onde eu era a protagonista mas o tema não se desenvolvia
+        sobre mim. Então deixar a minha identidade de parte era o foco e assim o que representa visualmente todas as
+        possíveis identidades(cores) o meu corpo seria transformado em suporte.</p>
+    <p>Cores escolhidas: preto, vermelho, laranja, amarelo e branco porque assim o meu corpo era todas as possibilidades
+        de representação tonal da pele. Destacar as cores que originam a pele e tornar neutro o meu corpo; transformá-lo
+        numa base.</p>
 {% endblock %}
 
 {% set images =
