@@ -11,7 +11,7 @@
 
             <div class="navbar-collapse navbar-nav flex-column align-items-end text-center" id="navbar">
                 <a class="nav-item nav-link" href="#gallery">Galeria</a>
-                <a class="nav-item nav-link" href="#randomPosts">Exercícios</a>
+                <!--<a class="nav-item nav-link" href="#randomPosts">Exercícios</a>-->
                 <!--<a class="nav-item nav-link" href="#">Currículo</a>-->
                 <a class="nav-item nav-link" href="#contacts">Contactos</a>
             </div>

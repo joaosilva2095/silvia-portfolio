@@ -33,10 +33,10 @@
     </section>
 
     <!-- Random posts -->
-    <section id="randomPosts" class="row no-gutters py-5 random-posts-wrapper">
+    <!--<section id="randomPosts" class="row no-gutters py-5 random-posts-wrapper">
         <div class="corner-horizontal"></div>
         <div class="corner-vertical"></div>
-    </section>
+    </section>-->
 
     <!-- Curriculum -->
     <!--<section id="curriculum" class="row no-gutters py-5 random-posts-wrapper">
