@@ -1,0 +1,33 @@
+{% extends "layout/gallery.nj" %}
+
+{% set title = 'Performance para a Câmera' %}
+{% set date = 'Janeiro 2017' %}
+
+{% block description %}
+    <p>A proposta foi realizada em conjunto com a minha colega Bruna Gomes.</p>
+    <p>O trabalho teve como objetivo desenvolver um projeto derivado do conceito cinema expandido onde aspetos como as
+        experiências cinemáticas, as imagens performativas, o espaço, a instalação e a provocação ao espectador
+        emancipado estivem presentes.</p>
+    <p>O suporte de projeção numa dimensão de distorção da imagem e da provocação de desconforto na falta de espaço de
+        forma a perseguir o espectador. Desenvolvemo-lo num ambiente de individual angustiante e de sensações
+        claustrofobicas.</p>
+    <p>Após uma primeira tentativa mal sucedida de pôr em prática o trabalho, refiz corrigindo as descoerências do
+        espaço e dimensão com o material e a projeção, correspondida assim a ideia de perseguição e apelo às
+        características e qualidade de projeção da proposta inicial do trabalho.</p>
+{% endblock %}
+
+{% set images =
+    [
+        {
+            url: 'https://res.cloudinary.com/joaosilva2095/image/upload/f_auto,q_auto/v1528934502/Sílvia/Portfólio/Performance Câmera/3.0.jpg'
+        },
+        {
+            url: 'https://res.cloudinary.com/joaosilva2095/image/upload/f_auto,q_auto/v1528934502/Sílvia/Portfólio/Performance Câmera/3.1.jpg'
+        },
+        {
+            url: 'https://res.cloudinary.com/joaosilva2095/image/upload/f_auto,q_auto/v1528934502/Sílvia/Portfólio/Performance Câmera/3.2.jpg'
+        },
+        {
+            url: 'https://res.cloudinary.com/joaosilva2095/image/upload/f_auto,q_auto/v1528934502/Sílvia/Portfólio/Performance Câmera/3.3.jpg'
+        }
+    ] %}

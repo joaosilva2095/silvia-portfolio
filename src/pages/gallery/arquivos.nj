@@ -1,0 +1,30 @@
+{% extends "layout/gallery.nj" %}
+
+{% set title = 'Arquivos: Memória e Apropriação' %}
+{% set date = 'Abril 2018' %}
+
+{% block description %}
+    <p>A proposta foi realizada em conjunto com a minha colega Bruna Gomes.</p>
+    <p>O trabalho teve como objetivo desenvolver um projeto derivado do conceito cinema expandido onde aspetos como as
+        experiências cinemáticas, as imagens performativas, o espaço, a instalação e a provocação ao espectador
+        emancipado estivem presentes.</p>
+    <p>O suporte de projeção numa dimensão de distorção da imagem e da provocação de desconforto na falta de espaço de
+        forma a perseguir o espectador. Desenvolvemo-lo num ambiente de individual angustiante e de sensações
+        claustrofobicas.</p>
+    <p>Após uma primeira tentativa mal sucedida de pôr em prática o trabalho, refiz corrigindo as descoerências do
+        espaço e dimensão com o material e a projeção, correspondida assim a ideia de perseguição e apelo às
+        características e qualidade de projeção da proposta inicial do trabalho.</p>
+{% endblock %}
+
+{% set images =
+    [
+        {
+            url: 'https://res.cloudinary.com/joaosilva2095/image/upload/f_auto,q_auto/v1528934958/Sílvia/Portfólio/Arquivos/6.0.png'
+        },
+        {
+            url: 'https://res.cloudinary.com/joaosilva2095/image/upload/f_auto,q_auto/v1528934958/Sílvia/Portfólio/Arquivos/6.1.png'
+        },
+        {
+            url: 'https://res.cloudinary.com/joaosilva2095/image/upload/f_auto,q_auto/v1528934958/Sílvia/Portfólio/Arquivos/6.2.png'
+        }
+    ] %}
