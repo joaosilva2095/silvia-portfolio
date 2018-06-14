@@ -1,0 +1,23 @@
+{% extends "layout/gallery.nj" %}
+
+{% set title = '"Terça-Feira" de  Patrícia Portela, uma história paralela.' %}
+{% set date = 'Março 2018' %}
+
+{% block description %}
+    <p>Em prol da leitura e interpretação deste excerto do livro dias úteis, quis transparecer o que muitas vezes me
+        ocupa a mente durante as minhas longas esperas em contínuas viagens de ilha para ilha para continente.</p>
+    <p>A minha irmã mais nova é a pessoa com quem converso no video e que quero ter sempre por perto, mas ao contrário
+        do texto do projeto, não tenho qualquer interesse em me preparar para uma aventura da maneira que a autora
+        descreve. Interessa-me o irracional controlado e não o descontrolo de racionalidade. A minha história é paralela
+        à do texto, mas eu sigo pelo mundo e a personagem vai à esquina para se sentir na china.</p>
+
+    <p>Link de acesso: <a href="https://www.youtube.com/watch?v=erIScV1GgtA" target="_blank">https://www.youtube.com/watch?v=erIScV1GgtA</a>
+    </p>
+{% endblock %}
+
+{% set images =
+    [
+        {
+            url: 'https://res.cloudinary.com/joaosilva2095/image/upload/f_auto,q_auto/v1528936696/S%C3%ADlvia/Portf%C3%B3lio/Hist%C3%B3ria%20Paralela/35194173_437405383398292_8812915240875327488_n.png'
+        }
+    ] %}
